@@ -6,9 +6,9 @@ const div = document.getElementById('app')
 console.log('div')
 console.log(div)
 //把png路径放到HTML中
-div.innerHTML = ` 
-   <img src="${png}"> 
-`
+// div.innerHTML = ` 
+//    <img src="${png}"> 
+// `
 
 const button = document.createElement('button')
 button.innerText = '懒加载'
