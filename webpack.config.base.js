@@ -17,8 +17,18 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    'file-loader',//把文件变成文件路径
+                ],
+            },
+            {
+                test: /\.styl$/,
+                loader: ['style-loader', 'css-loader', 'stylus-loader']
+            },
+            {
                 test: /\.less$/,
-                loader: ['style-loader', 'css-loader', 'less-loader'],
+                loader: ['style-loader', 'css-loader', 'less-loader']
             },
             {
                 test: /\.scss$/i,
