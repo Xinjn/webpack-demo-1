@@ -8,7 +8,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return lazy; });\nfunction lazy() {\r\n    console.log('我是一个懒加载');\r\n}\n\n//# sourceURL=webpack:///./src/lazy.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return lazy; });\nfunction lazy() {\n    console.log('我是一个懒加载');\n}\n\n//# sourceURL=webpack:///./src/lazy.js?");
 
 /***/ })
 

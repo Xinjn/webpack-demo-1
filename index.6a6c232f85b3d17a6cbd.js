@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + chunkId + ".index." + {"0":"54df89964951403e1ce3"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "" + chunkId + ".index." + {"0":"ba6008d1af656c28c9a7"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -281,7 +281,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.js */ \"./src/x.js\");\n/* harmony import */ var _assets_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/1.png */ \"./src/assets/1.png\");\n\r\n //png放到assets中，通过import获取png路径\r\nconsole.log(_assets_1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"])//打印出png，发现png为路径，得出JS自动会找到png路径\r\n\r\nconst div = document.getElementById('app')\r\nconsole.log('div')\r\nconsole.log(div)\r\n//把png路径放到HTML中\r\ndiv.innerHTML = ` \r\n   <img src=\"${_assets_1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]}\"> \r\n`\r\n\r\nconst button = document.createElement('button')\r\nbutton.innerText = '懒加载'\r\nbutton.onclick = () => {\r\n   const promise = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\")) //因为是监听函数（异步函数），需要promise设置成功和失败情况\r\n   promise.then((module) => {\r\n      const fn = module.default //调用lazy.dafaule默认值——打印出值\r\n      fn()\r\n   }, () => {\r\n      console.log('模块加载错误')\r\n   })\r\n}\r\ndiv.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.js */ \"./src/x.js\");\n/* harmony import */ var _assets_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/1.png */ \"./src/assets/1.png\");\n\n //png放到assets中，通过import获取png路径\nconsole.log(_assets_1_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"])//打印出png，发现png为路径，得出JS自动会找到png路径\n\nconst div = document.getElementById('app')\nconsole.log('div')\nconsole.log(div)\n//把png路径放到HTML中\n// div.innerHTML = ` \n//    <img src=\"${png}\"> \n// `\n\nconst button = document.createElement('button')\nbutton.innerText = '懒加载'\nbutton.onclick = () => {\n   const promise = __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lazy */ \"./src/lazy.js\")) //因为是监听函数（异步函数），需要promise设置成功和失败情况\n   promise.then((module) => {\n      const fn = module.default //调用lazy.dafaule默认值——打印出值\n      fn()\n   }, () => {\n      console.log('模块加载错误')\n   })\n}\ndiv.appendChild(button)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -293,7 +293,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_j
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.scss */ \"./src/x.scss\");\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_x_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_y_less__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./z.styl */ \"./src/z.styl\");\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_z_styl__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = ('xxx');\n\n//# sourceURL=webpack:///./src/x.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./x.scss */ \"./src/x.scss\");\n/* harmony import */ var _x_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_x_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./y.less */ \"./src/y.less\");\n/* harmony import */ var _y_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_y_less__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./z.styl */ \"./src/z.styl\");\n/* harmony import */ var _z_styl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_z_styl__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ('xxx');\n\n//# sourceURL=webpack:///./src/x.js?");
 
 /***/ }),
 
